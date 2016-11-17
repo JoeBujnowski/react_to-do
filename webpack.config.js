@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const htmlTemplate      = require('html-webpack-template');
 
 const BUILD_DIR         = path.resolve(__dirname, 'dist');
-const APP_DIR           = path.resolve(__dirname, 'src/client/app');
+const APP_DIR           = path.resolve(__dirname, 'src/components/');
 
 const config = {
   entry:  `${APP_DIR}/main.js`,

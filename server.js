@@ -4,6 +4,7 @@
 const express     = require('express');
 const bodyParser  = require('body-parser');
 const logger      = require('morgan');
+const path        = require(path);
 
 // This tests to see if we have NODE_ENV in our environment.
 // Only load the dotenv if we need it.
